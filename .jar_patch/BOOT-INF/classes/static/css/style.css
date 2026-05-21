@@ -1,0 +1,60 @@
+:root {
+    --green-700: #2f7b46;
+    --green-500: #4caf68;
+    --cream: #f6f8f1;
+}
+
+body {
+    background: linear-gradient(180deg, var(--cream) 0%, #ffffff 35%);
+    min-height: 100vh;
+}
+
+.hero-section {
+    background: radial-gradient(circle at top right, #dff5e5, #ffffff 55%);
+}
+
+.stat-card {
+    border: 0;
+    border-radius: 0.9rem;
+    box-shadow: 0 0.45rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+.summary-box {
+    background: #f5fbf7;
+    border: 1px solid #d7ebdf;
+}
+
+.card {
+    border-radius: 0.9rem;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.pagination .page-link {
+    color: var(--green-700);
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--green-700);
+    border-color: var(--green-700);
+}
+
+.chart-box {
+    position: relative;
+    height: 260px;
+}
+
+.chart-box-lg {
+    position: relative;
+    height: 320px;
+}
+
+@media (max-width: 768px) {
+    .chart-box,
+    .chart-box-lg {
+        height: 240px;
+    }
+}

@@ -2,6 +2,7 @@ package com.example.grocery.model;
 
 public class ExpressDelivery extends Delivery {
 
+
     public ExpressDelivery() {
         super();
     }

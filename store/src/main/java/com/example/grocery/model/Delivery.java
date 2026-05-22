@@ -3,6 +3,7 @@ package com.example.grocery.model;
 import java.time.LocalDateTime;
 
 public abstract class Delivery {
+
     private String id;
     private String orderId;
     private String customerId;

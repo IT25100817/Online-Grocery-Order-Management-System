@@ -1,5 +1,7 @@
-package com.example.grocery.model;
+﻿package com.example.grocery.model;
 
+// This class represents one product inside an order
+// Encapsulation: all fields are private and can only be accessed through getters and setters
 public class OrderItem {
     private String productId;
     private String productName;
@@ -16,6 +18,7 @@ public class OrderItem {
         this.quantity = quantity;
     }
 
+    // Calculates total price for this item (unit price x quantity)
     public double getLineTotal() {
         return unitPrice * quantity;
     }

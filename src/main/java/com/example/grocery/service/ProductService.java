@@ -112,3 +112,4 @@ public class ProductService {
                 form.getPrice(), form.getStockQuantity(), form.getStatus(), imagePath);
     }
 }
+// ProductService - Handles all product CRUD operations - IT25101026
